@@ -14,7 +14,7 @@ Data Lake Processor is a Spark Scala application for processing and analyzing da
 
    ```bash
    git clone https://github.com/momoikich/DataLakeProcessor.git
-   cd data-lake-processor
+   cd DataLakeProcessor
    ```
 
 2. Build the project:
