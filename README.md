@@ -1,62 +1,60 @@
-# DataLakeProcessor
 
-DataLakeProcessor est une application Spark Scala permettant d'ingérer, de transformer et d'analyser de grands ensembles de données à l'aide d'Apache Spark.
+# Data Lake Processor
 
-## Prérequis
+Data Lake Processor is a Spark Scala application for processing and analyzing data. It includes functionalities for data ingestion, transformation, quality checks, aggregation, and more.
 
-Avant d'exécuter l'application, assurez-vous d'avoir installé les éléments suivants :
+## Prerequisites
 
-- Apache Spark (version 3.2.0)
-- Scala (version 2.13.12)
-- SBT (Scala Build Tool)
+- Apache Spark installed on your machine.
+- Hadoop binaries configured (if required).
 
-## Utilisation
+## Usage
 
-1. Clonez le dépôt :
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/momoikich/DataLakeProcessor.git
-   cd DataLakeProcessor
+   cd data-lake-processor
    ```
 
-2. Compilez le projet :
+2. Build the project:
 
    ```bash
    sbt clean compile
    ```
 
-3. Exécutez l'application :
+3. Run the Data Lake Processor:
 
    ```bash
    sbt run
    ```
 
-4. Consultez les données traitées :
-
-   L'application affichera les données transformées et agrégées dans la console.
-
 ## Configuration
 
-- Modifiez la source de données d'entrée :
+- Adjust SparkSession settings in `DataLakeProcessor.scala` as needed.
+- Configure Hadoop home settings if required.
 
-  Remplacez le chemin du fichier CSV dans la fonction `main` de `DataLakeProcessor.scala` par le chemin de votre source de données réelle.
+## Features
 
-  ```scala
-  val rawData: DataFrame = spark.read.option("header", "true").csv("votre/chemin/vers/les/données.csv")
-  ```
+- **Data Ingestion**: Reads data from a CSV file. Replace the path with your data source.
 
-- Personnalisez les transformations :
+- **Data Transformation**: Converts the "Name" column to uppercase.
 
-  Ajustez les fonctions `transformData` et `performDataQualityChecks` dans `DataLakeProcessor.scala` en fonction de vos besoins de traitement des données.
+- **Data Quality Checks**: Removes rows with null values.
 
-## Contribution
+- **Aggregation**: Counts occurrences of each city for individuals older than 25.
 
-N'hésitez pas à contribuer en ouvrant des problèmes ou en soumettant des demandes de fusion.
+- **Data Enrichment**: Adds a new column "IsAdult" based on the age threshold.
 
-## Licence
+- **Data Partitioning**: Repartitions data by the "City" column.
 
-Ce projet est sous licence [MIT](LICENSE).
-```
+- **Window Function for Analysis**: Ranks individuals within each city based on age.
 
-Assurez-vous de personnaliser le fichier README en fonction de la structure de votre projet et des détails spécifiques.
- 
+## Additional Notes
+
+- Ensure Hadoop binaries are configured if you encounter Hadoop-related issues.
+- Adjust paths and configurations based on your specific setup.
+
+## Author
+
+Mohamed IKICH
