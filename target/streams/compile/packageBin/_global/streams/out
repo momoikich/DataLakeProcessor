@@ -1,33 +1,11 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\hammi\OneDrive\Bureau\hello-world\target\scala-2.13\dynamic-data-lake_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\hammi\OneDrive\Documents\GitHub\DataLakeProcessor\target\scala-2.13\dynamic-data-lake_2.13-1.0.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Bureau\hello-world\target\scala-2.13\classes\com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Documents\GitHub\DataLakeProcessor\target\scala-2.13\classes\com[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\example[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Bureau\hello-world\target\scala-2.13\classes\com\example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Documents\GitHub\DataLakeProcessor\target\scala-2.13\classes\com\example[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\example\DataLakeProcessor$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Bureau\hello-world\target\scala-2.13\classes\com\example\DataLakeProcessor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Documents\GitHub\DataLakeProcessor\target\scala-2.13\classes\com\example\DataLakeProcessor$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\example\DataLakeProcessor.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Bureau\hello-world\target\scala-2.13\classes\com\example\DataLakeProcessor.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Complex.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Bureau\hello-world\target\scala-2.13\classes\Complex.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	FrenchDate$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Bureau\hello-world\target\scala-2.13\classes\FrenchDate$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	FrenchDate.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Bureau\hello-world\target\scala-2.13\classes\FrenchDate.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Tree$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Bureau\hello-world\target\scala-2.13\classes\Tree$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Tree$Const$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Bureau\hello-world\target\scala-2.13\classes\Tree$Const$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Tree$Const.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Bureau\hello-world\target\scala-2.13\classes\Tree$Const.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Tree$Sum$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Bureau\hello-world\target\scala-2.13\classes\Tree$Sum$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Tree$Sum.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Bureau\hello-world\target\scala-2.13\classes\Tree$Sum.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Tree$Var$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Bureau\hello-world\target\scala-2.13\classes\Tree$Var$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Tree$Var.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Bureau\hello-world\target\scala-2.13\classes\Tree$Var.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Tree.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Bureau\hello-world\target\scala-2.13\classes\Tree.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hammi\OneDrive\Documents\GitHub\DataLakeProcessor\target\scala-2.13\classes\com\example\DataLakeProcessor.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
